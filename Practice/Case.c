@@ -5,9 +5,9 @@ int main(){
     D=0;
     printf("enter letter: ");
     scanf("%c",&c);
-    if('c'>=65||'c'<=81)
-     printf("%c",c);
-    if('c'>=97||'c'<=123){
+    if(c>=65 && c<=91){
+     printf("%c\n",c);}
+    if(c >=97 && c<=123){
     c= c-32;
     printf("%c",c);
 }
